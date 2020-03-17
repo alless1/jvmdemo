@@ -12,5 +12,6 @@ public class MyTest3 {
         System.out.println("add 44444");
         System.out.println("add 55555");
         System.out.println("add 66666");
+        System.out.println("add 7777");
     }
 }
