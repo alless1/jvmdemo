@@ -10,6 +10,8 @@ import java.util.List;
 public class MyTest1 {
     public static void main(String[] args) {
         List<MyTest1> list = new ArrayList<>();
+        System.out.println("temp 8");
+
         while (true) {
             list.add(new MyTest1());
             System.gc();
@@ -19,5 +21,6 @@ public class MyTest1 {
                 e.printStackTrace();
             }
         }
+
     }
 }
