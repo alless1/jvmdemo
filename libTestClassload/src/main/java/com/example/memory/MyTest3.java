@@ -7,5 +7,6 @@ package com.example.memory;
 public class MyTest3 {
     public static void main(String[] args) {
         System.out.println("add branch dev ");
+        System.out.println("add 22222");
     }
 }
