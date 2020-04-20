@@ -1,5 +1,7 @@
 package com.example.memory;
 
+import java.lang.ref.WeakReference;
+
 /**
  * Created by chengjie on 2020-03-17
  * Description:
@@ -10,6 +12,6 @@ public class MyTest3 {
         System.out.println("add 22222");
         System.out.println("add 33333");
         System.out.println("add 44444");
-
+        System.gc();
     }
 }
