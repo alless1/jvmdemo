@@ -1,5 +1,7 @@
 package com.example.memory;
 
+import java.sql.SQLOutput;
+
 /**
  * Created by chengjie on 2020-03-08
  * Description:
@@ -45,4 +47,5 @@ public class MyTest2 {
         thread2.join();
         System.out.println("end");
     }
+
 }
