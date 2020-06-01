@@ -14,5 +14,7 @@ public class MyTest3 {
         System.out.println("add 66666");
         System.out.println("add 7777");
         System.out.println("temp 8888");
+
+        System.out.println("test2");
     }
 }
