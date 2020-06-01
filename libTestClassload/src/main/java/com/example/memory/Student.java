@@ -1,13 +1,12 @@
 package com.example.memory;
 
-import com.alibaba.fastjson.JSON;
-import com.google.gson.Gson;
 
 /**
  * Created by chengjie on 2020-03-28
  * Description:
  */
 public class Student {
+
     private String name;
     private int age;
 
@@ -42,14 +41,5 @@ public class Student {
                 '}';
     }
 
-    public static void main(String[] args) {
-        Student student = new Student("aa",33);
-        student.name = "lisi";
-        student.age = 24;
-        String json = new Gson().toJson(student);
-        String fast = JSON.toJSONString(student);
-        System.out.println(json);
-        System.out.println(fast);
 
-    }
 }
