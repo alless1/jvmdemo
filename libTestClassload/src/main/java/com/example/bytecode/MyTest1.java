@@ -15,4 +15,8 @@ public class MyTest1 {
         this.a = a;
     }
 
+    public static void main(String[] args) {
+        System.out.println("dev2 11111");
+    }
+
 }
